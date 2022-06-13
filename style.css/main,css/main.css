@@ -1,0 +1,31 @@
+.container{
+
+    margin-top: 100px;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    width: 160px;
+    height: 40px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    transition: transform 1.5s ease;
+    box-shadow: 
+    160px 0px red,
+    -160px 0px red,
+    0px 40px red,
+    -160px -40px black,
+     160px 40px black,
+     160px -40px black,
+     0px -40px red,
+     -160px 40px black;
+}
+
+h3:hover{
+    transform: rotate(720deg);
+}
